@@ -1,0 +1,106 @@
+<html>
+<head>
+
+	<link rel="stylesheet" href="History.css">
+	<link rel="stylesheet" href="Journal.css">
+	<link rel="stylesheet" href="Portfolio.css">
+	<link rel="stylesheet" href="style2.css">
+	<meta name="viewport" content="width =device-width, initial-scale =1.0">
+	<div id="sideNav">
+	<nav>
+	<ul> 
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="history.html">HISTORY</a></li>
+		<li><a href="journal.html">JOURNAL</a></li>
+		<li><a href="portfolio.html">PORTFOLIO</a></li>
+	</ul>
+	</nav>
+</div>
+	<div id="menuBtn">
+		<img src="menu.png" id="menu">
+	</div>
+	
+	<script>
+	var menuBtn= document.getElementById("menuBtn")
+	var sideNav= document.getElementById("sideNav")
+	var menu= document.getElementById("menu")
+	
+	sideNav.style.right="-250px";
+	
+	menuBtn,onclick= function(){
+		if(sideNav.style.right=="-250px"){
+			sideNav.style.right ="0";
+			menu.src = "close.png";
+		}
+		else{
+			sideNav.style.right="-250px";
+			menu.src="menu.png";
+		}
+	}
+	</script>
+	
+
+<!-- History -->
+<body>
+<section id="history">
+	<div class="history-text">
+	<div class="container">
+	<h1>HISTORY</h1>
+		<p>To remain ignorant of history is<br>remain forever child.</p>
+		<div class="single-service">
+			<img src="camera.jpg" style="width :100%;">
+		</div>
+		<div class="single-service">
+			<img src="camera2.jpg" style="width :100%;">
+		</div>
+		<div class="single-service">
+			<img src="camera3.jpg" style="width :100%;">
+			<br>
+			<br>
+			<br>
+		</div>
+	<div class="desc-text">
+	<p> 
+The roots of photography extend back further than you might assume. In the 4th Century BC, Aristotle made use of the principles<br> of the camera obscura, in
+which an image is projected through a small hole. Through a camera obscura’s pinhole, the image of the world is often reversed or upside-down.<br> While our notion of a camera has evolved dramatically, the “camera obscura” is 
+considered the ancient building block upon which further revolutionary developments and inventions in the field of photography were built.</p><br>
+</div>
+<div class="invented-text">
+<h2>WHO INVENTED PHOTOGRAPHY?</h2>
+<br>
+	<p>Joseph Nicéphore Niépce and Louis Daguerre are often considered the inventors of photography with cameras as<br> we now know it. The former started out
+experimenting with silver chloride and silver halide photography, but couldn’t<br>
+figure out how to prevent them from darkening with exposure to light.</p>
+</div>
+	<div class="container">
+		<div class="para2">
+			<img src="joseph2.jpg" style="width :100%;">
+			<div class="bottom-left"></div>
+			<p>Joseph Nicéphore Niépce</p>
+		</div>
+		<div class="para2">
+			<img src="louis.jpg" style="width :100%;">
+			<br>
+			<div class="bottom-right"></div>
+			<p>Louis Daguerre</p>
+			<br>
+			<br>
+			</div>
+			</div>
+		<div class="para1">
+		<center>
+	<p><hr>In 1826, Niépce succeeded in taking the first camera photograph. He used a sheet of pewter coated with bitumen,<br> which required an exposure time of at 
+		least 8 hours! The subject of this photograph hit close to home for Niépce; it is the view from his workroom in Saint-Loup-de-Varennes, France.<br>
+		Painter Louis Jacques Mandé Daguerre was so excited by this achievement, he partnered with Niépce. Daguerre continued to develop, refine, and tinker <br>
+		with the process using silver-plated sheets of copper and fuming them with mercury vapor. As he continued to develop this process, Daguerre was able to <br>
+		vastly reduce to the exposure time.</p><hr>
+		</center>
+		</div>
+		
+		
+		<br>
+	
+</section>	
+</body>
+</html>
+	

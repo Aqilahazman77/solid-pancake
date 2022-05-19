@@ -1,0 +1,85 @@
+<html>
+<head>
+
+	<link rel="stylesheet" href="History.css">
+	<link rel="stylesheet" href="Journal.css">
+	<link rel="stylesheet" href="Portfolio.css">
+	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<meta name="viewport" content="width =device-width, initial-scale =1.0">
+	<div id="sideNav">
+	<nav>
+	<ul> 
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="history.html">HISTORY</a></li>
+		<li><a href="journal.html">JOURNAL</a></li>
+		<li><a href="portfolio.html">PORTFOLIO</a></li>
+	</ul>
+	</nav>
+</div>
+	<div id="menuBtn">
+		<img src="menu.png" id="menu">
+	</div>
+	
+	<script>
+	var menuBtn= document.getElementById("menuBtn")
+	var sideNav= document.getElementById("sideNav")
+	var menu= document.getElementById("menu")
+	
+	sideNav.style.right="-250px";
+	
+	menuBtn,onclick= function(){
+		if(sideNav.style.right=="-250px"){
+			sideNav.style.right ="0";
+			menu.src = "close.png";
+		}
+		else{
+			sideNav.style.right="-250px";
+			menu.src="menu.png";
+		}
+	}
+	</script>
+	
+
+<!-- Portfolio -->
+<body>
+<section id="portfolio">
+	<div class="portfolio-text">
+	<h1>PORTFOLIO</h1>
+		<p>Don't shoot what it looks like.<br>Shoot what it feels like.</p>
+			<div class="port">
+			<img src="qq.jpg" style="width :100%;">
+			</div>
+			<div class="port1">
+			<br>
+			<br>
+			<br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<p> Hello, my name is Aqilah Azman. I am an uitm kedah branch student studying in Computer Science and Maths. Photography is my creative outlet: expressive,
+				transformative and meaningful.<br>My practice is highly versatile, with professional experience in a wide range of styles and genres. Comfortable in<br> studio and
+				on location, I love to explore the unlimited potential of light. I also adore working<br> with people, building relationships and capturing memorable moments.<br><br>
+				To discuss how I can help you, just click below...</p>
+		</div>
+		<br><br><br>
+		<div class="contact-info">
+      <div class="card">
+        <i class="card-icon far fa-envelope"></i>
+        <p>aqilahazmannn96@gmail.com</p>
+      </div>
+
+      <div class="card">
+        <i class="card-icon fas fa-phone"></i>
+        <p>+60195230289</p>
+      </div>
+
+      <div class="card">
+        <i class="card-icon fas fa-map-marker-alt"></i>
+        <p>Kedah,Malaysia</p>
+      </div>
+    </div>
+	
+		
+  </body>
+</html>
+		</div>
+		</section>

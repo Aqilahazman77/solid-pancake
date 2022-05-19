@@ -1,0 +1,104 @@
+#history{
+	width: 100%;
+	padding: 100px 0;
+	background: url(pastel.jpg);
+	background-size: cover;
+	background-position:center;
+	height:200vh;
+}
+{
+.box-sizing: border-box;
+}
+.single-service{
+	width: 27%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 45px;
+	padding: 1px;
+}
+.single-service img{
+	height: 400px;
+}
+.history-text{
+	text-align: center;
+	color: black;
+}
+.history-text h1{
+	font-size: 80px;
+}
+.history-text p{
+	font-size: 20px;
+	font-family: consolas;
+}
+.desc-text{
+	text-align: center;
+	color: black;
+}
+.desc-text h2{
+	font-size: 30px;
+	font-family: timesnewroman;
+}
+.desc-text p{
+	font-size: 15px;
+	font-family: arial;
+}
+.invented-text p{
+	font-size: 15px;
+	font-family: arial;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+.invented-text h2{
+	font-size: 30px;
+	font-family: timesnewroman;
+	word-spacing: 7px;
+}
+{
+.box-sizing: border-box;
+}
+.para2{
+	width: 30%;
+	float: left;
+	margin-top: 30px;
+	margin-left: 60px;
+	margin-right: 70px;
+	padding: 3px;
+}
+.container{
+	position: relative;
+	text-align: center;
+	color: #fff;
+}
+.bottom-left{
+	display: flex;
+	justify-content: center;
+}
+.bottom-right{
+	display: flex;
+	justify-content: center;
+
+}
+.para2 img{
+	display: flex;
+	justify-content: center;
+	height: 400px;
+}
+.para2 p{
+	font-size: 20px;
+	font-family: timesnewroman;
+	letter-spacing: 2px;
+}
+.para1{
+	text-align: center;
+	color: black;
+}
+.para1 p{
+	padding-top: 10px;
+	font-size: 15px;
+	font-family: arial;
+	margin-right: 30;
+	margin-top:30;
+}
+
+

@@ -1,0 +1,99 @@
+#portfolio{
+	width: 100%;
+	padding: 100px 0;
+	background: url(pastel.jpg);
+	background-size: cover;
+	background-position:center;
+	height:200vh;
+}
+{
+.box-sizing: border-box;
+}
+.port{
+	width: 30%;
+	float: left;
+	margin-left: 400px;
+	margin-right: 100px;
+	margin-bottom: 5px;
+	padding: 20px;
+
+}
+.port img{
+	height: 250px;
+}
+.portfolio-text{
+	text-align: center;
+	color: white;
+}
+.portfolio-text h1{
+	font-size: 80px;
+}
+.portfolio-text p{
+	font-size: 20px;
+	font-family: consolas;
+}
+.port1 p{
+	text-align: center;
+	color: #71706E;
+	font-size: 20px;
+	font-family: segoe print;
+}
+
+.contact-info{
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.card{
+  background: #b8e0d2;
+  padding: 0 20px;
+  margin: 0 10px;
+  width: calc(33% - 20px);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+.card-icon{
+  font-size: 28px;
+  background: #95b8d1;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px !important;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+.card:hover .card-icon{
+  background: none;
+  color:  black;
+  transform: scale(1.6);
+}
+.card p{
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  max-height: 0;
+  opacity: 0;
+  transition: 0.3s linear;
+}
+.card:hover p{
+  max-height: 40px;
+  opacity: 1;
+}
+@media screen and (max-width:800px){
+.contact-info{
+    flex-direction: column;
+}
+.card{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+  }	
+}

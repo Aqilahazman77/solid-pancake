@@ -1,0 +1,127 @@
+<html>
+<head>
+
+	<link rel="stylesheet" href="Journal.css">
+	<link rel="stylesheet" href="History.css">
+	<link rel="stylesheet" href="Portfolio.css">
+	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<meta name="viewport" content="width =device-width, initial-scale =1.0">
+	<div id="sideNav">
+	<nav>
+	<ul> 
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="history.html">HISTORY</a></li>
+		<li><a href="journal.html">JOURNAL</a></li>
+		<li><a href="portfolio.html">PORTFOLIO</a></li>
+	</ul>
+	</nav>
+</div>
+	<div id="menuBtn">
+		<img src="menu.png" id="menu">
+	</div>
+	
+	<script>
+	var menuBtn= document.getElementById("menuBtn")
+	var sideNav= document.getElementById("sideNav")
+	var menu= document.getElementById("menu")
+	
+	sideNav.style.right="-250px";
+	
+	menuBtn,onclick= function(){
+		if(sideNav.style.right=="-250px"){
+			sideNav.style.right ="0";
+			menu.src = "close.png";
+		}
+		else{
+			sideNav.style.right="-250px";
+			menu.src="menu.png";
+		}
+	}
+	</script>
+	
+<!--Journal-->
+<body>
+<section id="journal">
+	<div class="journal-text">
+	<div class="container">
+	<h1>JOURNAL</h1>
+		<p>Journal writing is a wonderful pathway<br> to self-awareness.</p>
+		<div class="jrnl">
+			<img src="summerCover.jpg" style="width :100%;">
+		</div>
+		<div class="jrnl">
+			<img src="summer1.jpg" style="width :100%;">
+		</div>
+		<div class="jrnl">
+			<img src="street2.jpg" style="width :100%;">
+		</div>
+		<div class="jrnl">
+			<img src="street1.jpg" style="width :100%;">
+		</div>
+		<div class="jrnl">
+			<img src="hh.jpg" style="width :100%;">
+		</div>
+		<div class="jrnl">
+			<img src="sport.jpg" style="width :100%;">
+		</div>
+			<br>
+			<br><br>
+			<br>
+			<div class="center-text">
+			<h4>In addition to photography, I enjoy sports. Badminton and volleyball are two of my favourite sports.<br>Exercise improves sleep quality by increasing enzyme activity and muscle function, as well as soothing the body after a long day at work.<br> You will feel better in the morning.
+			</div>
+			
+			<center>
+			<video controls style="width:500px;size:300px;">
+				<source src="passion.mp4" type="video/mp4"/>
+				</video><br>
+				</center>
+				
+			<br>
+			<br>
+		</div>
+		<div class="container1">
+		<div class="post">
+			<div class="text">Thanks for your feeedback!</div>
+			<div class="edit">EDIT</div>
+			</div>
+		<div class="star-widget">
+			<input type="radio" name="rate" id ="rate5">
+				<label for="rate5" class="fas fa-star"></label>
+			<input type="radio" name="rate" id ="rate4">
+				<label for="rate4" class="fas fa-star"></label>
+			<input type="radio" name="rate" id ="rate3">
+				<label for="rate3" class="fas fa-star"></label>
+			<input type="radio" name="rate" id ="rate2">
+				<label for="rate2" class="fas fa-star"></label>
+			<input type="radio" name="rate" id ="rate1">
+				<label for="rate1" class="fas fa-star"></label>
+				<form action="#">
+				<header></header>
+				<div class ="textarea">
+				<textarea cols="30" placeholder="Share your feedback here!"></textarea>
+          </div>
+          <div class="btn">
+            <button type="submit">Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script>
+      const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const widget = document.querySelector(".star-widget");
+      const editBtn = document.querySelector(".edit");
+      btn.onclick = ()=>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = ()=>{
+          widget.style.display = "block";
+          post.style.display = "none";
+        }
+        return false;
+      }
+    </script>
+</body>
+</section>

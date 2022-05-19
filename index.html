@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>PHOTOGRAPHY WEBSITE</title>
+	<link rel="stylesheet" href="style2.css">
+	<meta name="viewport" content="width =device-width, initial-scale =1">
+</head>
+<body>
+<section id="banner">
+	<img src="logo.png" class="logo">
+	<div class="banner-text">
+		<h1> PHOTOGRAPHY</h1>
+		<p>You DONT'T TAKE a photograph,<br>You MAKE IT.</p>
+		<div class="banner-btn">
+			<a href="#"<span></span>EXPLORE</a>
+			<a href="portfolio.html">CONTACT</a>
+		</div>
+	</div>
+</section>
+<div id="sideNav">
+	<nav>
+	<ul> 
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="history.html">HISTORY</a></li>
+		<li><a href="journal.html">JOURNAL</a></li>
+		<li><a href="portfolio.html">PORTFOLIO</a></li>
+	</ul>
+	</nav>
+</div>
+	<div id="menuBtn">
+		<img src="menu.png" id="menu">
+	</div>
+	
+	<script>
+	var menuBtn= document.getElementById("menuBtn")
+	var sideNav= document.getElementById("sideNav")
+	var menu= document.getElementById("menu")
+	
+	sideNav.style.right="-250px";
+	
+	menuBtn,onclick= function(){
+		if(sideNav.style.right=="-250px"){
+			sideNav.style.right ="0";
+			menu.src = "close.png";
+		}
+		else{
+			sideNav.style.right="-250px";
+			menu.src="menu.png";
+		}
+	}
+	</script>
+	
+				
+
+</body>
+</html>
+	
